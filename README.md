@@ -1,2 +1,5 @@
-# tdd-katas
-TDD Katas (exercises)
+# TDD Katas
+
+List of exercises to practice TDD.
+
+- [FizzBuzz](./FizzBuzz/README.md)
