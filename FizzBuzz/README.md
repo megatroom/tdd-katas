@@ -5,6 +5,6 @@ Write a function that receives a size (integer) and returns an array with number
 Example:
 
 ```js
-FizzBuzz.generate(16)
+fizzBuzz(16)
 // [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'FizzBuzz', 16]
 ```

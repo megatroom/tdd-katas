@@ -3,3 +3,4 @@
 List of exercises to practice TDD.
 
 - [FizzBuzz](./FizzBuzz/README.md)
+- [Credit Card Flag](./CreditCardFlag/README.md)
