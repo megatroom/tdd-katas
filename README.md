@@ -41,6 +41,26 @@ Jest will watch for any changes to the project and trigger the tests, this will 
 
 Use the `*.test.js` extension for Jest to recognize it as a test file.
 
+Example of first test, create a file named `fizzBuzz.test.js` with:
+
+```js
+const fizzBuzz = require('./fizzBuzz');
+
+it("should return empty array for null", () => {
+    expect(fizzBuzz(null)).toEqual([]);
+});
+```
+
+The test will fail. Then create the file `fizzBuzz.js` to meet the test:
+
+```js
+module.exports = function fizzBuzz(size) {
+    return [];
+}
+```
+
+Now the test will pass. Just follow the TDD cycle until the code is complete.
+
 ## Contributing
 
 Every new Kata is welcome, just make the Pull Request or request through an issue.
