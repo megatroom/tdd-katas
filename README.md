@@ -28,7 +28,7 @@ Change the test script in `package.json` to make it easier to run the tests:
 
 ```diff
 -    "test": "echo \"Error: no test specified\" && exit 1"
-+    "test": "jest --watch"
++    "test": "jest --watchAll"
 ```
 
 Now just run the tests:
